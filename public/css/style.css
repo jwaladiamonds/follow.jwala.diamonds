@@ -336,6 +336,11 @@ h2 {
   background-color: #e8edf1;
 }
 
+.blur-bg {
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+}
+
 .contact-page {
   padding-top: 2em;
   color: #aaa;
