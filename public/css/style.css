@@ -398,3 +398,13 @@ h3 > a.share-label {
   color: #343a40 !important;
   vertical-align: middle;
 }
+
+iframe#launcher {
+  transition-property: opacity, top, bottom, margin !important;
+}
+
+@media (max-width: 500px) {
+  iframe#launcher {
+    margin-bottom: 60px !important;
+  }
+}
